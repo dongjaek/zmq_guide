@@ -1,0 +1,5 @@
+Ask and Ye Shall Receive
+
+This is a SERVER, so we must send packets over tcp to it in order for it to respond!
+netcat -v 127.0.0.1 5555 will cause a response to occur
+This is of course that we are running on the same machine as we are using localhost...
