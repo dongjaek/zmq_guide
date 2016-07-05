@@ -1,0 +1,5 @@
+p.32, publisher subscriber model of distributing data.
+ZMQ guide uses C code so it's easiest to continue writing in C code.
+
+To compile the ZMQ C code do the following.
+ gcc -Wall -g hwserver.c -lzmq -o hwserver
